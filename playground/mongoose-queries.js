@@ -4,7 +4,7 @@ const { Todo } = require("./../server/model/todo");
 const { User } = require("./../server/model/user");
 
 var id = "5a0bb7b971d50f3a861a6fc2";
-// var userID = "5a0bb7b971d50f3a861a6fc2";
+
 if (!ObjectID.isValid(id)) {
   return console.log("ID not valid");
 }
